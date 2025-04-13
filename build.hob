@@ -1,0 +1,4 @@
+p INT = "echo"
+
+test;
+    !(INT) 'hi'
