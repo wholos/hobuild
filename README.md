@@ -28,12 +28,7 @@ gcc hobuild.c -o hobuild
 
 How to install?
 
-AUR:
-``` sh
-git clone https://aur.archlinux.org/hobuild.git | cd hobuild/
-makepkg -si
-```
-or
+AUR (ArchLinux):
 ``` sh
 yay -S hobuild
 ```
