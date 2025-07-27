@@ -1,7 +1,7 @@
 # hobuild
 [![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white)](#)
 
-Build system for unix!
+**Build system for unix!**
 
 hobuild - has a file extension of ```.hob```, and should always be named ```build.hob```, the syntax is simple
 
@@ -11,7 +11,7 @@ block; = block
 !() = variable reference in brackets
 ```
 
-Example build.hob
+**Example build.hob**
 ```
 p INT = "echo"
 
@@ -20,12 +20,13 @@ test;
 ```
 and write in terminal ```hobuild test```
 
-How to build?
+**How to build?**
 ``` sh
-gcc hobuild.c -o hobuild
+chmod +x build.sh
+./build.sh
 ```
 
-How to install?
+**How to install?**
 
 AUR (ArchLinux):
 ``` sh
@@ -34,5 +35,5 @@ yay -S hobuild
 
 Any unix systems:
 ``` sh
-sudo cp hobuild /usr/bin/hobuild
+cp hobuild /usr/bin/hobuild
 ```
